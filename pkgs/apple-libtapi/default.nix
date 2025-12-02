@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     owner = "tpoechtrager";
     repo = "apple-libtapi";
     rev = version;
-    hash = "sha256-S0uqhh/OKlRGwqJMLlZlAc6aP37kVmDRWPUa0El9aO4=";
+    hash = "sha256-+iuZ8hbH/2yWF+Km4ktXyjRcofxYMPxe43IGp8WdTog=";
   };
 
   nativeBuildInputs = [ cmake ninja python3 clang makeWrapper ];
