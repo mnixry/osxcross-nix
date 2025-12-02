@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "tpoechtrager";
     repo = "cctools-port";
     rev = version;
-    hash = "sha256-kQApmHaL3iTxrH58XVFYDnyK6iR0//Uaz8wcb7dFWF4=";
+    hash = "sha256-qPeEWsoBf7xrvoC3EQl7LP9Tcpi6t4xjmg6mJlfoVN0=";
   };
 
   buildInputs = [ libdispatch libtapi llvm clang ]
